@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;900&display=swap");
 
 * {
   margin: 0;
@@ -57,6 +57,29 @@ button {
 
 button:hover {
   background: rgb(23, 141, 117);
+}
+
+footer {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  height: 2rem;
+  width: 2rem;
+  fill: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+svg:hover {
+  transform: scale(1.1);
 }
 
 @media (max-width: 1100px) {
