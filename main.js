@@ -20,7 +20,7 @@ import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPa
 
 // UI
 const gui = new GUI();
-gui.hide();
+gui.close();
 
 // Textures
 import displacementSrc from "./static/displacement.png";
