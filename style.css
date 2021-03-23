@@ -9,6 +9,8 @@ html,
 body {
   height: 100vh;
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  position: relative;
 }
 
 .webgl {
